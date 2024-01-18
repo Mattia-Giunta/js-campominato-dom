@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+header,
+main,
+footer{
+    padding: 20px;
+}
+
+header,
+footer{
+    height: 10vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+
+main{
+    background-color: #95fbd4;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#griglia{
+    width: 60%;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+
+#griglia .box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    aspect-ratio: 1;
+}
+
+#griglia .box.sky{
+    background-color: aqua ;
+    color: black;
+}
+
+footer span{
+    font-size: 24px;
+}
+
+/* Terminato esercizio */
