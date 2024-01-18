@@ -57,6 +57,11 @@ main{
     color: black;
 }
 
+#griglia .box.red{
+    background-color: red ;
+    color: white;
+}
+
 footer span{
     font-size: 24px;
 }
